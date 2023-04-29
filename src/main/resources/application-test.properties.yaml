@@ -1,0 +1,13 @@
+spring.jpa.database-platform=org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.hibernate.ddl-auto=validate
+spring.jpa.show-sql=true
+
+application.avatars.folder=./avatars
+
+spring.data.web.pageable.max-page-size=50
+
+spring.liquibase.change-log=classpath:liquibase/changelog-master.yml
+
+logging.level.root=info
+
+app.env = test
